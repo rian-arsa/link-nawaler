@@ -1,0 +1,55 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    max-width: 400px;
+    align-items: center;
+    margin: auto;
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+
+    #title__brand {
+        margin-bottom: -20px;
+    }
+}
+
+/* Content */
+
+.content {
+    margin: 10px;
+
+    .content-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .content-item {
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 5px solid black;
+        margin-top: 20px;
+        /* border-radius: 0px 20px; */
+        box-shadow: rgba(24, 5, 17, 0.4) -5px 5px, rgba(24, 5, 17, 0.3) -10px 10px;
+    }
+}
+
+.content img {
+    width: 40px;
+    height: 30px;
+}
+
+.content img.web {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
